@@ -32,6 +32,7 @@ async function loadData() {
                      onerror="this.parentElement.innerHTML = '<div class=\'image-loading-error\'>Image currently unavailable</div>'"
                      loading="lazy"
                 >
+                <div class="image-attribution">Image from public domain</div>
             </div>
         `).join('');
 

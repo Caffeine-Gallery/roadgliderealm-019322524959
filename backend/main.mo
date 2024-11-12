@@ -27,10 +27,10 @@ actor {
     ];
 
     private stable let imageUrls : [Text] = [
-        "https://cdp.azureedge.net/products/USA/HD/2024/MC/TOURING/ROAD_GLIDE/50/VIVID_BLACK/2000000001.jpg",
-        "https://cdp.azureedge.net/products/USA/HD/2024/MC/TOURING/ROAD_GLIDE/50/VIVID_BLACK/2000000002.jpg",
-        "https://cdp.azureedge.net/products/USA/HD/2024/MC/TOURING/ROAD_GLIDE/50/VIVID_BLACK/2000000003.jpg",
-        "https://cdp.azureedge.net/products/USA/HD/2024/MC/TOURING/ROAD_GLIDE/50/VIVID_BLACK/2000000004.jpg"
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Harley-Davidson_Road_Glide.jpg/1280px-Harley-Davidson_Road_Glide.jpg",
+        "https://live.staticflickr.com/65535/53440445243_4a68e54a91_b.jpg",
+        "https://live.staticflickr.com/65535/53439590097_4b68a54e31_b.jpg",
+        "https://live.staticflickr.com/65535/53440445133_8f68c54c71_b.jpg"
     ];
 
     // Query functions

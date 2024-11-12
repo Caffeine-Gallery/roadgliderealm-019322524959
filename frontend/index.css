@@ -1,6 +1,6 @@
 .hero-section {
     background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-                url('https://cdp.azureedge.net/products/USA/HD/2024/MC/TOURING/ROAD_GLIDE/50/VIVID_BLACK/2000000001.jpg');
+                url('https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Harley-Davidson_Road_Glide.jpg/1280px-Harley-Davidson_Road_Glide.jpg');
     background-size: cover;
     background-position: center;
     color: white;
@@ -64,6 +64,13 @@
     border: 1px solid #f5c6cb;
     border-radius: 8px;
     margin: 10px 0;
+}
+
+.image-attribution {
+    font-size: 0.8rem;
+    text-align: center;
+    margin-top: 5px;
+    color: #6c757d;
 }
 
 @media (max-width: 768px) {
