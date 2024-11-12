@@ -27,9 +27,9 @@ actor {
     ];
 
     private stable let imageUrls : [Text] = [
-        "https://www.harley-davidson.com/content/dam/h-d/images/product-images/bikes/motorcycle/2024/2024-road-glide/2024-road-glide-f57/360/2024-road-glide-f57-motorcycle-01.jpg",
-        "https://www.harley-davidson.com/content/dam/h-d/images/product-images/bikes/motorcycle/2024/2024-road-glide/2024-road-glide-f57/360/2024-road-glide-f57-motorcycle-02.jpg",
-        "https://www.harley-davidson.com/content/dam/h-d/images/product-images/bikes/motorcycle/2024/2024-road-glide/2024-road-glide-f57/360/2024-road-glide-f57-motorcycle-03.jpg"
+        "https://i.imgur.com/JXD8B6M.jpg",
+        "https://i.imgur.com/9KLpXz8.jpg",
+        "https://i.imgur.com/H7RVLK3.jpg"
     ];
 
     // Query functions

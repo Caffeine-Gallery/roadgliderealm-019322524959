@@ -1,6 +1,6 @@
 .hero-section {
     background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-                url('https://www.harley-davidson.com/content/dam/h-d/images/product-images/bikes/motorcycle/2024/2024-road-glide/2024-road-glide-f57/hero/2024-road-glide-f57-motorcycle-hero.jpg');
+                url('https://i.imgur.com/JXD8B6M.jpg');
     background-size: cover;
     background-position: center;
     color: white;
@@ -44,6 +44,12 @@
     width: 100%;
     height: 500px;
     object-fit: cover;
+}
+
+.carousel {
+    background-color: #f8f9fa;
+    padding: 10px;
+    border-radius: 8px;
 }
 
 @media (max-width: 768px) {
