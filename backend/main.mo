@@ -27,10 +27,10 @@ actor {
     ];
 
     private stable let imageUrls : [Text] = [
-        "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Harley-Davidson_Road_Glide.jpg/1280px-Harley-Davidson_Road_Glide.jpg",
-        "https://live.staticflickr.com/65535/53440445243_4a68e54a91_b.jpg",
-        "https://live.staticflickr.com/65535/53439590097_4b68a54e31_b.jpg",
-        "https://live.staticflickr.com/65535/53440445133_8f68c54c71_b.jpg"
+        "https://images.pexels.com/photos/2611686/pexels-photo-2611686.jpeg",
+        "https://images.pexels.com/photos/2519374/pexels-photo-2519374.jpeg",
+        "https://images.pexels.com/photos/1413412/pexels-photo-1413412.jpeg",
+        "https://images.pexels.com/photos/2611685/pexels-photo-2611685.jpeg"
     ];
 
     // Query functions

@@ -28,11 +28,11 @@ async function loadData() {
             <div class="carousel-item ${index === 0 ? 'active' : ''}">
                 <img src="${url}" 
                      class="d-block w-100" 
-                     alt="Harley-Davidson Road Glide 2024 - View ${index + 1}"
+                     alt="Custom Road Glide - View ${index + 1}"
                      onerror="this.parentElement.innerHTML = '<div class=\'image-loading-error\'>Image currently unavailable</div>'"
                      loading="lazy"
                 >
-                <div class="image-attribution">Image from public domain</div>
+                <div class="image-attribution">Photo by Pexels</div>
             </div>
         `).join('');
 
