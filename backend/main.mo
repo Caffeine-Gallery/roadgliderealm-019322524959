@@ -27,9 +27,10 @@ actor {
     ];
 
     private stable let imageUrls : [Text] = [
-        "https://i.imgur.com/JXD8B6M.jpg",
-        "https://i.imgur.com/9KLpXz8.jpg",
-        "https://i.imgur.com/H7RVLK3.jpg"
+        "https://cdp.azureedge.net/products/USA/HD/2024/MC/TOURING/ROAD_GLIDE/50/VIVID_BLACK/2000000001.jpg",
+        "https://cdp.azureedge.net/products/USA/HD/2024/MC/TOURING/ROAD_GLIDE/50/VIVID_BLACK/2000000002.jpg",
+        "https://cdp.azureedge.net/products/USA/HD/2024/MC/TOURING/ROAD_GLIDE/50/VIVID_BLACK/2000000003.jpg",
+        "https://cdp.azureedge.net/products/USA/HD/2024/MC/TOURING/ROAD_GLIDE/50/VIVID_BLACK/2000000004.jpg"
     ];
 
     // Query functions

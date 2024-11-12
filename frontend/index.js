@@ -21,26 +21,26 @@ async function loadData() {
             </div>
         `).join('');
 
-        // Load images with error handling
+        // Load images with enhanced error handling
         const images = await backend.getImages();
         const carouselInner = document.querySelector('.carousel-inner');
         carouselInner.innerHTML = images.map((url, index) => `
             <div class="carousel-item ${index === 0 ? 'active' : ''}">
                 <img src="${url}" 
                      class="d-block w-100" 
-                     alt="Harley-Davidson Road Glide 2024 View ${index + 1}"
-                     onerror="this.src='https://i.imgur.com/noimage.jpg'; this.alt='Image not available'"
+                     alt="Harley-Davidson Road Glide 2024 - View ${index + 1}"
+                     onerror="this.parentElement.innerHTML = '<div class=\'image-loading-error\'>Image currently unavailable</div>'"
+                     loading="lazy"
                 >
             </div>
         `).join('');
 
     } catch (error) {
         console.error("Error loading data:", error);
-        // Display error message to user
         document.querySelectorAll('.spinner-border').forEach(spinner => {
             spinner.parentElement.innerHTML = `
                 <div class="alert alert-danger" role="alert">
-                    Failed to load content. Please try again later.
+                    Unable to load content. Please refresh the page or try again later.
                 </div>
             `;
         });
@@ -49,3 +49,17 @@ async function loadData() {
 
 // Load data when the page loads
 document.addEventListener('DOMContentLoaded', loadData);
+
+// Add event listeners for image error handling
+document.addEventListener('DOMContentLoaded', () => {
+    const carousel = document.getElementById('imageGallery');
+    if (carousel) {
+        carousel.addEventListener('slid.bs.carousel', (event) => {
+            const activeItem = event.relatedTarget;
+            const img = activeItem.querySelector('img');
+            if (img && img.naturalWidth === 0) {
+                img.onerror();
+            }
+        });
+    }
+});
